@@ -39,6 +39,41 @@ const mockTransactions: CashflowItem[] = [
     amount: 500,
     type: TransactionType.Income,
   },
+  {
+    id: 6,
+    date: new Date('2023-08-20'),
+    description: 'Bonus',
+    amount: 500,
+    type: TransactionType.Income,
+  },
+  {
+    id: 7,
+    date: new Date('2023-07-20'),
+    description: 'Bonus',
+    amount: 0,
+    type: TransactionType.Income,
+  },
+  {
+    id: 8,
+    date: new Date('2023-06-20'),
+    description: 'Bonus',
+    amount: 500,
+    type: TransactionType.Income,
+  },
+  {
+    id: 9,
+    date: new Date('2023-05-20'),
+    description: 'Bonus',
+    amount: 0,
+    type: TransactionType.Income,
+  },
+  {
+    id: 10,
+    date: new Date('2023-04-20'),
+    description: 'Bonus',
+    amount: 0,
+    type: TransactionType.Income,
+  },
 ];
 
 function App() {
